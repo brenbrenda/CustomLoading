@@ -13,6 +13,10 @@
 		C21C2B94260846F700A0F231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21C2B92260846F700A0F231 /* Main.storyboard */; };
 		C21C2B96260846FB00A0F231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21C2B95260846FB00A0F231 /* Assets.xcassets */; };
 		C21C2B99260846FB00A0F231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21C2B97260846FB00A0F231 /* LaunchScreen.storyboard */; };
+		C21C2BA22608490C00A0F231 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21C2BA12608490C00A0F231 /* LaunchViewController.swift */; };
+		C21C2BA526084CFA00A0F231 /* bighero6.mov in Resources */ = {isa = PBXBuildFile; fileRef = C21C2BA426084CFA00A0F231 /* bighero6.mov */; };
+		C27E619226086DC60004ED78 /* mood.mov in Resources */ = {isa = PBXBuildFile; fileRef = C27E619126086DC60004ED78 /* mood.mov */; };
+		C27E619526087A620004ED78 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = C27E619426087A620004ED78 /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C21C2B95260846FB00A0F231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C21C2B98260846FB00A0F231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C21C2B9A260846FB00A0F231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21C2BA12608490C00A0F231 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		C21C2BA426084CFA00A0F231 /* bighero6.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bighero6.mov; sourceTree = "<group>"; };
+		C27E619126086DC60004ED78 /* mood.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = mood.mov; sourceTree = "<group>"; };
+		C27E619426087A620004ED78 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		C21C2B8B260846F700A0F231 /* CustomLoading */ = {
 			isa = PBXGroup;
 			children = (
+				C21C2BA426084CFA00A0F231 /* bighero6.mov */,
+				C27E619126086DC60004ED78 /* mood.mov */,
 				C21C2B8C260846F700A0F231 /* AppDelegate.swift */,
 				C21C2B8E260846F700A0F231 /* SceneDelegate.swift */,
 				C21C2B90260846F700A0F231 /* ViewController.swift */,
+				C21C2BA12608490C00A0F231 /* LaunchViewController.swift */,
 				C21C2B92260846F700A0F231 /* Main.storyboard */,
+				C27E619426087A620004ED78 /* MyParticle.sks */,
 				C21C2B95260846FB00A0F231 /* Assets.xcassets */,
 				C21C2B97260846FB00A0F231 /* LaunchScreen.storyboard */,
 				C21C2B9A260846FB00A0F231 /* Info.plist */,
@@ -125,7 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21C2B99260846FB00A0F231 /* LaunchScreen.storyboard in Resources */,
+				C27E619526087A620004ED78 /* MyParticle.sks in Resources */,
+				C27E619226086DC60004ED78 /* mood.mov in Resources */,
 				C21C2B96260846FB00A0F231 /* Assets.xcassets in Resources */,
+				C21C2BA526084CFA00A0F231 /* bighero6.mov in Resources */,
 				C21C2B94260846F700A0F231 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 				C21C2B91260846F700A0F231 /* ViewController.swift in Sources */,
 				C21C2B8D260846F700A0F231 /* AppDelegate.swift in Sources */,
 				C21C2B8F260846F700A0F231 /* SceneDelegate.swift in Sources */,
+				C21C2BA22608490C00A0F231 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
